@@ -1,0 +1,4816 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>汇编语言-第二章-寄存器-乌守元.md · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="深入理解java虚拟机-lingyunG.html" />
+    
+    
+    <link rel="prev" href="公务员招聘要求-YuanCome.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Algorithm
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201904W3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1.1" data-path="../../Algorithm/201904W3/201904W3-乌守元.html">
+            
+                <a href="../../Algorithm/201904W3/201904W3-乌守元.html">
+            
+                    
+                    201904W3-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201904W2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.1" data-path="../../Algorithm/201904W2/15_3sum-HardJ.html">
+            
+                <a href="../../Algorithm/201904W2/15_3sum-HardJ.html">
+            
+                    
+                    15_3sum-HardJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2" data-path="../../Algorithm/201904W2/MiddleNode-lingyunG.html">
+            
+                <a href="../../Algorithm/201904W2/MiddleNode-lingyunG.html">
+            
+                    
+                    MiddleNode-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201904W1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.3.1" data-path="../../Algorithm/201904W1/201904W1-lingyunG.html">
+            
+                <a href="../../Algorithm/201904W1/201904W1-lingyunG.html">
+            
+                    
+                    201904W1-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201903W4
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.4.1" data-path="../../Algorithm/201903W4/201903W4-starichat.html">
+            
+                <a href="../../Algorithm/201903W4/201903W4-starichat.html">
+            
+                    
+                    201903W4-starichat.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4.2" data-path="../../Algorithm/201903W4/201903W4-乌守元.html">
+            
+                <a href="../../Algorithm/201903W4/201903W4-乌守元.html">
+            
+                    
+                    201903W4-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201903W3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.5.1" data-path="../../Algorithm/201903W3/201903W3-lingyunG.html">
+            
+                <a href="../../Algorithm/201903W3/201903W3-lingyunG.html">
+            
+                    
+                    201903W3-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5.2" data-path="../../Algorithm/201903W3/201903W3-moye.html">
+            
+                <a href="../../Algorithm/201903W3/201903W3-moye.html">
+            
+                    
+                    201903W3-moye.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5.3" data-path="../../Algorithm/201903W3/201903W3-乌守元.html">
+            
+                <a href="../../Algorithm/201903W3/201903W3-乌守元.html">
+            
+                    
+                    201903W3-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201903W2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.6.1" data-path="../../Algorithm/201903W2/201903W2-YuanCome.html">
+            
+                <a href="../../Algorithm/201903W2/201903W2-YuanCome.html">
+            
+                    
+                    201903W2-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6.2" data-path="../../Algorithm/201903W2/201903W2-ZmJ.html">
+            
+                <a href="../../Algorithm/201903W2/201903W2-ZmJ.html">
+            
+                    
+                    201903W2-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6.3" data-path="../../Algorithm/201903W2/201903W2-lingyunG.html">
+            
+                <a href="../../Algorithm/201903W2/201903W2-lingyunG.html">
+            
+                    
+                    201903W2-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6.4" data-path="../../Algorithm/201903W2/201903W2-moye.html">
+            
+                <a href="../../Algorithm/201903W2/201903W2-moye.html">
+            
+                    
+                    201903W2-moye.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6.5" data-path="../../Algorithm/201903W2/201903W2-乌守元.html">
+            
+                <a href="../../Algorithm/201903W2/201903W2-乌守元.html">
+            
+                    
+                    201903W2-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6.6" data-path="../../Algorithm/201903W2/201903W2-启航.html">
+            
+                <a href="../../Algorithm/201903W2/201903W2-启航.html">
+            
+                    
+                    201903W2-启航.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201903W1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.7.1" data-path="../../Algorithm/201903W1/201903W1-YuanCome.html">
+            
+                <a href="../../Algorithm/201903W1/201903W1-YuanCome.html">
+            
+                    
+                    201903W1-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7.2" data-path="../../Algorithm/201903W1/201903W1-lingyunG.html">
+            
+                <a href="../../Algorithm/201903W1/201903W1-lingyunG.html">
+            
+                    
+                    201903W1-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7.3" data-path="../../Algorithm/201903W1/201903W1-乌守元.html">
+            
+                <a href="../../Algorithm/201903W1/201903W1-乌守元.html">
+            
+                    
+                    201903W1-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7.4" data-path="../../Algorithm/201903W1/201903W1-落英坠露.html">
+            
+                <a href="../../Algorithm/201903W1/201903W1-落英坠露.html">
+            
+                    
+                    201903W1-落英坠露.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.8" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W5
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.8.1" data-path="../../Algorithm/201902W5/201902W5-Leo.html">
+            
+                <a href="../../Algorithm/201902W5/201902W5-Leo.html">
+            
+                    
+                    201902W5-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.8.2" data-path="../../Algorithm/201902W5/201902W5-ZmJ.html">
+            
+                <a href="../../Algorithm/201902W5/201902W5-ZmJ.html">
+            
+                    
+                    201902W5-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.8.3" data-path="../../Algorithm/201902W5/201902W5-lingyunG.html">
+            
+                <a href="../../Algorithm/201902W5/201902W5-lingyunG.html">
+            
+                    
+                    201902W5-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.8.4" data-path="../../Algorithm/201902W5/201902W5-乌守元.html">
+            
+                <a href="../../Algorithm/201902W5/201902W5-乌守元.html">
+            
+                    
+                    201902W5-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.8.5" data-path="../../Algorithm/201902W5/201902W5-陈小渣.html">
+            
+                <a href="../../Algorithm/201902W5/201902W5-陈小渣.html">
+            
+                    
+                    201902W5-陈小渣.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W4
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.9.1" data-path="../../Algorithm/201902W4/201902W4-YuanCome.html">
+            
+                <a href="../../Algorithm/201902W4/201902W4-YuanCome.html">
+            
+                    
+                    201902W4-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9.2" data-path="../../Algorithm/201902W4/201902W4-ZmJ.html">
+            
+                <a href="../../Algorithm/201902W4/201902W4-ZmJ.html">
+            
+                    
+                    201902W4-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9.3" data-path="../../Algorithm/201902W4/201902W4-yanglei094121.html">
+            
+                <a href="../../Algorithm/201902W4/201902W4-yanglei094121.html">
+            
+                    
+                    201902W4-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9.4" data-path="../../Algorithm/201902W4/201902W4-乌守元.html">
+            
+                <a href="../../Algorithm/201902W4/201902W4-乌守元.html">
+            
+                    
+                    201902W4-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9.5" data-path="../../Algorithm/201902W4/201902W4-启航.html">
+            
+                <a href="../../Algorithm/201902W4/201902W4-启航.html">
+            
+                    
+                    201902W4-启航.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9.6" data-path="../../Algorithm/201902W4/201902W4-寒食君.html">
+            
+                <a href="../../Algorithm/201902W4/201902W4-寒食君.html">
+            
+                    
+                    201902W4-寒食君.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.10" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.10.1" data-path="../../Algorithm/201902W3/201902W3-Leo.html">
+            
+                <a href="../../Algorithm/201902W3/201902W3-Leo.html">
+            
+                    
+                    201902W3-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.10.2" data-path="../../Algorithm/201902W3/201902W3-YuanCome.html">
+            
+                <a href="../../Algorithm/201902W3/201902W3-YuanCome.html">
+            
+                    
+                    201902W3-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.10.3" data-path="../../Algorithm/201902W3/201902W3-ZmJ.html">
+            
+                <a href="../../Algorithm/201902W3/201902W3-ZmJ.html">
+            
+                    
+                    201902W3-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.10.4" data-path="../../Algorithm/201902W3/201902W3-starichat.html">
+            
+                <a href="../../Algorithm/201902W3/201902W3-starichat.html">
+            
+                    
+                    201902W3-starichat.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.10.5" data-path="../../Algorithm/201902W3/201902W3-yanglei094121.html">
+            
+                <a href="../../Algorithm/201902W3/201902W3-yanglei094121.html">
+            
+                    
+                    201902W3-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.10.6" data-path="../../Algorithm/201902W3/201902W3-启航.html">
+            
+                <a href="../../Algorithm/201902W3/201902W3-启航.html">
+            
+                    
+                    201902W3-启航.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.10.7" data-path="../../Algorithm/201902W3/201902W3-陈小渣.html">
+            
+                <a href="../../Algorithm/201902W3/201902W3-陈小渣.html">
+            
+                    
+                    201902W3-陈小渣.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.11" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.11.1" data-path="../../Algorithm/201902W2/201902W2-Leo.html">
+            
+                <a href="../../Algorithm/201902W2/201902W2-Leo.html">
+            
+                    
+                    201902W2-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.11.2" data-path="../../Algorithm/201902W2/201902W2-ZmJ.html">
+            
+                <a href="../../Algorithm/201902W2/201902W2-ZmJ.html">
+            
+                    
+                    201902W2-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.11.3" data-path="../../Algorithm/201902W2/201902W2-yanglei094121.html">
+            
+                <a href="../../Algorithm/201902W2/201902W2-yanglei094121.html">
+            
+                    
+                    201902W2-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.12" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.12.1" data-path="../../Algorithm/201902W1/201902W1-EruDev.html">
+            
+                <a href="../../Algorithm/201902W1/201902W1-EruDev.html">
+            
+                    
+                    201902W1-EruDev.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.12.2" data-path="../../Algorithm/201902W1/201902W1-Leo.html">
+            
+                <a href="../../Algorithm/201902W1/201902W1-Leo.html">
+            
+                    
+                    201902W1-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.12.3" data-path="../../Algorithm/201902W1/201902W1-YuanCome.html">
+            
+                <a href="../../Algorithm/201902W1/201902W1-YuanCome.html">
+            
+                    
+                    201902W1-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.12.4" data-path="../../Algorithm/201902W1/201902W1-ZmJ.html">
+            
+                <a href="../../Algorithm/201902W1/201902W1-ZmJ.html">
+            
+                    
+                    201902W1-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.12.5" data-path="../../Algorithm/201902W1/201902W1-torreyxian.html">
+            
+                <a href="../../Algorithm/201902W1/201902W1-torreyxian.html">
+            
+                    
+                    201902W1-torreyxian.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.12.6" data-path="../../Algorithm/201902W1/201902W1-yanglei094121.html">
+            
+                <a href="../../Algorithm/201902W1/201902W1-yanglei094121.html">
+            
+                    
+                    201902W1-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.12.7" data-path="../../Algorithm/201902W1/201902W1-yu.html">
+            
+                <a href="../../Algorithm/201902W1/201902W1-yu.html">
+            
+                    
+                    201902W1-yu.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.12.8" data-path="../../Algorithm/201902W1/201902W1-启航.html">
+            
+                <a href="../../Algorithm/201902W1/201902W1-启航.html">
+            
+                    
+                    201902W1-启航.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.12.9" data-path="../../Algorithm/201902W1/201902W1-寒食君.html">
+            
+                <a href="../../Algorithm/201902W1/201902W1-寒食君.html">
+            
+                    
+                    201902W1-寒食君.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.12.10" data-path="../../Algorithm/201902W1/201902W1-张大Ant.html">
+            
+                <a href="../../Algorithm/201902W1/201902W1-张大Ant.html">
+            
+                    
+                    201902W1-张大Ant.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.12.11" data-path="../../Algorithm/201902W1/201902W1-陈小渣.html">
+            
+                <a href="../../Algorithm/201902W1/201902W1-陈小渣.html">
+            
+                    
+                    201902W1-陈小渣.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201901W4
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.13.1" data-path="../../Algorithm/201901W4/201901W4-EruDev.html">
+            
+                <a href="../../Algorithm/201901W4/201901W4-EruDev.html">
+            
+                    
+                    201901W4-EruDev.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.2" data-path="../../Algorithm/201901W4/201901W4-Iris.html">
+            
+                <a href="../../Algorithm/201901W4/201901W4-Iris.html">
+            
+                    
+                    201901W4-Iris.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.3" data-path="../../Algorithm/201901W4/201901W4-Leo.html">
+            
+                <a href="../../Algorithm/201901W4/201901W4-Leo.html">
+            
+                    
+                    201901W4-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.4" data-path="../../Algorithm/201901W4/201901W4-RenshuozZ.html">
+            
+                <a href="../../Algorithm/201901W4/201901W4-RenshuozZ.html">
+            
+                    
+                    201901W4-RenshuozZ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.5" data-path="../../Algorithm/201901W4/201901W4-YuanCome.html">
+            
+                <a href="../../Algorithm/201901W4/201901W4-YuanCome.html">
+            
+                    
+                    201901W4-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.6" data-path="../../Algorithm/201901W4/201901W4-ZmJ.html">
+            
+                <a href="../../Algorithm/201901W4/201901W4-ZmJ.html">
+            
+                    
+                    201901W4-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.7" data-path="../../Algorithm/201901W4/201901W4-joy.html">
+            
+                <a href="../../Algorithm/201901W4/201901W4-joy.html">
+            
+                    
+                    201901W4-joy.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.8" data-path="../../Algorithm/201901W4/201901W4-puck.html">
+            
+                <a href="../../Algorithm/201901W4/201901W4-puck.html">
+            
+                    
+                    201901W4-puck.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.9" data-path="../../Algorithm/201901W4/201901W4-tangyi.html">
+            
+                <a href="../../Algorithm/201901W4/201901W4-tangyi.html">
+            
+                    
+                    201901W4-tangyi.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.10" data-path="../../Algorithm/201901W4/201901W4-torreyxian.html">
+            
+                <a href="../../Algorithm/201901W4/201901W4-torreyxian.html">
+            
+                    
+                    201901W4-torreyxian.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.11" data-path="../../Algorithm/201901W4/201901W4-tvp100.html">
+            
+                <a href="../../Algorithm/201901W4/201901W4-tvp100.html">
+            
+                    
+                    201901W4-tvp100.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.12" data-path="../../Algorithm/201901W4/201901W4-xiaoerwei.html">
+            
+                <a href="../../Algorithm/201901W4/201901W4-xiaoerwei.html">
+            
+                    
+                    201901W4-xiaoerwei.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.13" data-path="../../Algorithm/201901W4/201901W4-yanglei094121.html">
+            
+                <a href="../../Algorithm/201901W4/201901W4-yanglei094121.html">
+            
+                    
+                    201901W4-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.14" data-path="../../Algorithm/201901W4/201901W4-yu.html">
+            
+                <a href="../../Algorithm/201901W4/201901W4-yu.html">
+            
+                    
+                    201901W4-yu.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.15" data-path="../../Algorithm/201901W4/201901W4-启航.html">
+            
+                <a href="../../Algorithm/201901W4/201901W4-启航.html">
+            
+                    
+                    201901W4-启航.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.16" data-path="../../Algorithm/201901W4/201901W4-寒食君.html">
+            
+                <a href="../../Algorithm/201901W4/201901W4-寒食君.html">
+            
+                    
+                    201901W4-寒食君.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.17" data-path="../../Algorithm/201901W4/201901W4-波胖子.html">
+            
+                <a href="../../Algorithm/201901W4/201901W4-波胖子.html">
+            
+                    
+                    201901W4-波胖子.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.18" data-path="../../Algorithm/201901W4/201901W4-落英坠露.html">
+            
+                <a href="../../Algorithm/201901W4/201901W4-落英坠露.html">
+            
+                    
+                    201901W4-落英坠露.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.19" data-path="../../Algorithm/201901W4/201901W4-陈小渣.html">
+            
+                <a href="../../Algorithm/201901W4/201901W4-陈小渣.html">
+            
+                    
+                    201901W4-陈小渣.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13.20" data-path="../../Algorithm/201901W4/201901w4-Lin_嘉杰.html">
+            
+                <a href="../../Algorithm/201901W4/201901w4-Lin_嘉杰.html">
+            
+                    
+                    201901w4-Lin_嘉杰.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Review
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201904W3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1.1" data-path="../../Review/201904W3/why-were-bullish-on-crypto-collectibles-nfts-乌守元.html">
+            
+                <a href="../../Review/201904W3/why-were-bullish-on-crypto-collectibles-nfts-乌守元.html">
+            
+                    
+                    why-were-bullish-on-crypto-collectibles-nfts-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201904W2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.2.1" data-path="../../Review/201904W2/HowIcutMyAWSbillByGoingServerless-lingyunG.html">
+            
+                <a href="../../Review/201904W2/HowIcutMyAWSbillByGoingServerless-lingyunG.html">
+            
+                    
+                    HowIcutMyAWSbillByGoingServerless-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2.2" data-path="../../Review/201904W2/Java并发编程基础-HardJ.html">
+            
+                <a href="../../Review/201904W2/Java并发编程基础-HardJ.html">
+            
+                    
+                    Java并发编程基础-HardJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201904W1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.3.1" data-path="../../Review/201904W1/HowToScaleWebApp-lingyunG.html">
+            
+                <a href="../../Review/201904W1/HowToScaleWebApp-lingyunG.html">
+            
+                    
+                    HowToScaleWebApp-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201903W4
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.4.1" data-path="../../Review/201903W4/Information-flow-reveals-prediction-limits-in-online(6">
+            
+                <span>
+            
+                    
+                    Information-flow-reveals-prediction-limits-in-online(6)-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.2" data-path="../../Review/201903W4/《黑客与画家》读后感-starichat.html">
+            
+                <a href="../../Review/201903W4/《黑客与画家》读后感-starichat.html">
+            
+                    
+                    《黑客与画家》读后感-starichat.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.5" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201903W3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.5.1" data-path="../../Review/201903W3/Information-flow-reveals-prediction-limits-in-online(5">
+            
+                <span>
+            
+                    
+                    Information-flow-reveals-prediction-limits-in-online(5)-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.5.2" data-path="../../Review/201903W3/敏捷设计LSP&&DIP&&ISP原则-lingyunG.html">
+            
+                <a href="../../Review/201903W3/敏捷设计LSP&&DIP&&ISP原则-lingyunG.html">
+            
+                    
+                    敏捷设计LSP&&DIP&&ISP原则-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.6" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201903W2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.6.1" data-path="../../Review/201903W2/An_A-Z_of_useful_python_tricks-ZmJ.html">
+            
+                <a href="../../Review/201903W2/An_A-Z_of_useful_python_tricks-ZmJ.html">
+            
+                    
+                    An_A-Z_of_useful_python_tricks-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.6.2" data-path="../../Review/201903W2/Docker教程四01-YuanCome.html">
+            
+                <a href="../../Review/201903W2/Docker教程四01-YuanCome.html">
+            
+                    
+                    Docker教程四01-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.6.3" data-path="../../Review/201903W2/Information-flow-reveals-prediction-limits-in-online(4">
+            
+                <span>
+            
+                    
+                    Information-flow-reveals-prediction-limits-in-online(4)-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.6.4" data-path="../../Review/201903W2/Lytro-in-Matlab-yanglei094121.html">
+            
+                <a href="../../Review/201903W2/Lytro-in-Matlab-yanglei094121.html">
+            
+                    
+                    Lytro-in-Matlab-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.6.5" data-path="../../Review/201903W2/敏捷设计&&SRP&&OCP原则-lingyunG.html">
+            
+                <a href="../../Review/201903W2/敏捷设计&&SRP&&OCP原则-lingyunG.html">
+            
+                    
+                    敏捷设计&&SRP&&OCP原则-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.7" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201903W1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.7.1" data-path="../../Review/201903W1/Information-flow-reveals-prediction-limits-in-online(3">
+            
+                <span>
+            
+                    
+                    Information-flow-reveals-prediction-limits-in-online(3)-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.7.2" data-path="../../Review/201903W1/light-field-rendering-yanglei094121.html">
+            
+                <a href="../../Review/201903W1/light-field-rendering-yanglei094121.html">
+            
+                    
+                    light-field-rendering-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.7.3" data-path="../../Review/201903W1/什么是敏捷开发-lingyunG.html">
+            
+                <a href="../../Review/201903W1/什么是敏捷开发-lingyunG.html">
+            
+                    
+                    什么是敏捷开发-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.8" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W5
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.8.1" data-path="../../Review/201902W5/AWS-IAM简易介绍-lingyunG.html">
+            
+                <a href="../../Review/201902W5/AWS-IAM简易介绍-lingyunG.html">
+            
+                    
+                    AWS-IAM简易介绍-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.8.2" data-path="../../Review/201902W5/Android开发者指南之性能提示-落英坠露.html">
+            
+                <a href="../../Review/201902W5/Android开发者指南之性能提示-落英坠露.html">
+            
+                    
+                    Android开发者指南之性能提示-落英坠露.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.8.3" data-path="../../Review/201902W5/Information-flow-reveals-prediction-limits-in-online(2">
+            
+                <span>
+            
+                    
+                    Information-flow-reveals-prediction-limits-in-online(2)-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.8.4" data-path="../../Review/201902W5/Java锁和Automic变量-Leo.html">
+            
+                <a href="../../Review/201902W5/Java锁和Automic变量-Leo.html">
+            
+                    
+                    Java锁和Automic变量-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.8.5" data-path="../../Review/201902W5/《小偷家族》观后感-ZmJ.html">
+            
+                <a href="../../Review/201902W5/《小偷家族》观后感-ZmJ.html">
+            
+                    
+                    《小偷家族》观后感-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.9" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W4
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.9.1" data-path="../../Review/201902W4/2019年浏览器的现状-寒食君.html">
+            
+                <a href="../../Review/201902W4/2019年浏览器的现状-寒食君.html">
+            
+                    
+                    2019年浏览器的现状-寒食君.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.9.2" data-path="../../Review/201902W4/Docker教程三-YuanCome.html">
+            
+                <a href="../../Review/201902W4/Docker教程三-YuanCome.html">
+            
+                    
+                    Docker教程三-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.9.3" data-path="../../Review/201902W4/Information-flow-reveals-prediction-limits-in-online(1">
+            
+                <span>
+            
+                    
+                    Information-flow-reveals-prediction-limits-in-online(1)-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.9.4" data-path="../../Review/201902W4/Java-for-Python-Programmers-ZmJ.html">
+            
+                <a href="../../Review/201902W4/Java-for-Python-Programmers-ZmJ.html">
+            
+                    
+                    Java-for-Python-Programmers-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.9.5" data-path="../../Review/201902W4/light-field-rendering-yanglei094121.html">
+            
+                <a href="../../Review/201902W4/light-field-rendering-yanglei094121.html">
+            
+                    
+                    light-field-rendering-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.9.6" data-path="../../Review/201902W4/写出好代码的12步-落英坠露.html">
+            
+                <a href="../../Review/201902W4/写出好代码的12步-落英坠露.html">
+            
+                    
+                    写出好代码的12步-落英坠露.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.10" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.10.1" data-path="../../Review/201902W3/Docker教程二-YuanCome.html">
+            
+                <a href="../../Review/201902W3/Docker教程二-YuanCome.html">
+            
+                    
+                    Docker教程二-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.10.2" data-path="../../Review/201902W3/light-field-rendering-yanglei094121.html">
+            
+                <a href="../../Review/201902W3/light-field-rendering-yanglei094121.html">
+            
+                    
+                    light-field-rendering-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.10.3" data-path="../../Review/201902W3/什么是数字签名-Leo.html">
+            
+                <a href="../../Review/201902W3/什么是数字签名-Leo.html">
+            
+                    
+                    什么是数字签名-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.10.4" data-path="../../Review/201902W3/教育部禁止教师用QQ或微信布置作业-陈小渣.html">
+            
+                <a href="../../Review/201902W3/教育部禁止教师用QQ或微信布置作业-陈小渣.html">
+            
+                    
+                    教育部禁止教师用QQ或微信布置作业-陈小渣.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.10.5" data-path="../../Review/201902W3/计算的未来是模拟-starichat.html">
+            
+                <a href="../../Review/201902W3/计算的未来是模拟-starichat.html">
+            
+                    
+                    计算的未来是模拟-starichat.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.10.6" data-path="../../Review/201902W3/软件工程与编程的不同-ZmJ.html">
+            
+                <a href="../../Review/201902W3/软件工程与编程的不同-ZmJ.html">
+            
+                    
+                    软件工程与编程的不同-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.11" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.11.1" data-path="../../Review/201902W2/LFToolbox官方文档-yanglei094121.html">
+            
+                <a href="../../Review/201902W2/LFToolbox官方文档-yanglei094121.html">
+            
+                    
+                    LFToolbox官方文档-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.11.2" data-path="../../Review/201902W2/RabbitMQ5-Topic-Leo.html">
+            
+                <a href="../../Review/201902W2/RabbitMQ5-Topic-Leo.html">
+            
+                    
+                    RabbitMQ5-Topic-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.12" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.12.1" data-path="../../Review/201902W1/Docker教程I-YuanCome.html">
+            
+                <a href="../../Review/201902W1/Docker教程I-YuanCome.html">
+            
+                    
+                    Docker教程I-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.12.2" data-path="../../Review/201902W1/LFToolbox-yanglei094121.html">
+            
+                <a href="../../Review/201902W1/LFToolbox-yanglei094121.html">
+            
+                    
+                    LFToolbox-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.12.3" data-path="../../Review/201902W1/RabbitMQ2-WorkQueues-Leo.html">
+            
+                <a href="../../Review/201902W1/RabbitMQ2-WorkQueues-Leo.html">
+            
+                    
+                    RabbitMQ2-WorkQueues-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.12.4" data-path="../../Review/201902W1/Zara换了个logo-torreyxian.html">
+            
+                <a href="../../Review/201902W1/Zara换了个logo-torreyxian.html">
+            
+                    
+                    Zara换了个logo-torreyxian.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.12.5" data-path="../../Review/201902W1/不要现场编程-yu.html">
+            
+                <a href="../../Review/201902W1/不要现场编程-yu.html">
+            
+                    
+                    不要现场编程-yu.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.12.6" data-path="../../Review/201902W1/具有公钥签名的JsonWebToke-EruDevn.html">
+            
+                <a href="../../Review/201902W1/具有公钥签名的JsonWebToke-EruDevn.html">
+            
+                    
+                    具有公钥签名的JsonWebToke-EruDevn.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.12.7" data-path="../../Review/201902W1/写给程序员读的童话书-寒食君.html">
+            
+                <a href="../../Review/201902W1/写给程序员读的童话书-寒食君.html">
+            
+                    
+                    写给程序员读的童话书-寒食君.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.13" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201901W4
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.13.1" data-path="../../Review/201901W4/HelloWorld的来历-ZmJ.html">
+            
+                <a href="../../Review/201901W4/HelloWorld的来历-ZmJ.html">
+            
+                    
+                    HelloWorld的来历-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.13.2" data-path="../../Review/201901W4/Light-Field-Rendering主要内容解析-yanglei094121.html">
+            
+                <a href="../../Review/201901W4/Light-Field-Rendering主要内容解析-yanglei094121.html">
+            
+                    
+                    Light-Field-Rendering主要内容解析-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.13.3" data-path="../../Review/201901W4/RabbitMQ1-Leo.html">
+            
+                <a href="../../Review/201901W4/RabbitMQ1-Leo.html">
+            
+                    
+                    RabbitMQ1-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.13.4" data-path="../../Review/201901W4/一名软件工程师的机器学习初体验-寒食君.html">
+            
+                <a href="../../Review/201901W4/一名软件工程师的机器学习初体验-寒食君.html">
+            
+                    
+                    一名软件工程师的机器学习初体验-寒食君.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.13.5" data-path="../../Review/201901W4/个性化推荐系统的概述与样例实现-huzujun.html">
+            
+                <a href="../../Review/201901W4/个性化推荐系统的概述与样例实现-huzujun.html">
+            
+                    
+                    个性化推荐系统的概述与样例实现-huzujun.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.13.6" data-path="../../Review/201901W4/中国出台措施保护并修复长江生态-puck.html">
+            
+                <a href="../../Review/201901W4/中国出台措施保护并修复长江生态-puck.html">
+            
+                    
+                    中国出台措施保护并修复长江生态-puck.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.13.7" data-path="../../Review/201901W4/中国餐饮业的发展趋势-启航.html">
+            
+                <a href="../../Review/201901W4/中国餐饮业的发展趋势-启航.html">
+            
+                    
+                    中国餐饮业的发展趋势-启航.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.13.8" data-path="../../Review/201901W4/在PyCharm中设置Flask程序-EruDev.html">
+            
+                <a href="../../Review/201901W4/在PyCharm中设置Flask程序-EruDev.html">
+            
+                    
+                    在PyCharm中设置Flask程序-EruDev.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.13.9" data-path="../../Review/201901W4/外卖员工资超过一些白领-陈小渣.html">
+            
+                <a href="../../Review/201901W4/外卖员工资超过一些白领-陈小渣.html">
+            
+                    
+                    外卖员工资超过一些白领-陈小渣.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.13.10" data-path="../../Review/201901W4/如何成为一名杰出的开发者-YuanCome.html">
+            
+                <a href="../../Review/201901W4/如何成为一名杰出的开发者-YuanCome.html">
+            
+                    
+                    如何成为一名杰出的开发者-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.13.11" data-path="../../Review/201901W4/科技改变生活-波胖子.html">
+            
+                <a href="../../Review/201901W4/科技改变生活-波胖子.html">
+            
+                    
+                    科技改变生活-波胖子.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.13.12" data-path="../../Review/201901W4/财富不均衡-torreyxian.html">
+            
+                <a href="../../Review/201901W4/财富不均衡-torreyxian.html">
+            
+                    
+                    财富不均衡-torreyxian.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.13.13" data-path="../../Review/201901W4/需求的选择性-yu.html">
+            
+                <a href="../../Review/201901W4/需求的选择性-yu.html">
+            
+                    
+                    需求的选择性-yu.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.13.14" data-path="../../Review/201901W4/鬼步舞-Iris.html">
+            
+                <a href="../../Review/201901W4/鬼步舞-Iris.html">
+            
+                    
+                    鬼步舞-Iris.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Tip
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201904W3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1.1" data-path="../../Tip/201904W3/给hexo添加瀑布式相册-乌守元.html">
+            
+                <a href="../../Tip/201904W3/给hexo添加瀑布式相册-乌守元.html">
+            
+                    
+                    给hexo添加瀑布式相册-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201904W2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.2.1" data-path="../../Tip/201904W2/Docker学习手册-lingyunG.html">
+            
+                <a href="../../Tip/201904W2/Docker学习手册-lingyunG.html">
+            
+                    
+                    Docker学习手册-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2.2" data-path="../../Tip/201904W2/spring与事务-HardJ.html">
+            
+                <a href="../../Tip/201904W2/spring与事务-HardJ.html">
+            
+                    
+                    spring与事务-HardJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201904W1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.3.1" data-path="../../Tip/201904W1/程序员不能忽略的基础知识-lingyunG.html">
+            
+                <a href="../../Tip/201904W1/程序员不能忽略的基础知识-lingyunG.html">
+            
+                    
+                    程序员不能忽略的基础知识-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201903W4
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.4.1" data-path="../../Tip/201903W4/Git新手技巧-starichat.html">
+            
+                <a href="../../Tip/201903W4/Git新手技巧-starichat.html">
+            
+                    
+                    Git新手技巧-starichat.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4.2" data-path="../../Tip/201903W4/几枝-乌守元.html">
+            
+                <a href="../../Tip/201903W4/几枝-乌守元.html">
+            
+                    
+                    几枝-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201903W3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.5.1" data-path="../../Tip/201903W3/Git数据模型-lingyunG.html">
+            
+                <a href="../../Tip/201903W3/Git数据模型-lingyunG.html">
+            
+                    
+                    Git数据模型-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5.2" data-path="../../Tip/201903W3/carbon-乌守元.html">
+            
+                <a href="../../Tip/201903W3/carbon-乌守元.html">
+            
+                    
+                    carbon-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201903W2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.6.1" data-path="../../Tip/201903W2/BasicAuth鉴权-ZmJ.html">
+            
+                <a href="../../Tip/201903W2/BasicAuth鉴权-ZmJ.html">
+            
+                    
+                    BasicAuth鉴权-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6.2" data-path="../../Tip/201903W2/Java的位运算技巧-YuanCome.html">
+            
+                <a href="../../Tip/201903W2/Java的位运算技巧-YuanCome.html">
+            
+                    
+                    Java的位运算技巧-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6.3" data-path="../../Tip/201903W2/Tensorflow-数据增强方法-乌守元.html">
+            
+                <a href="../../Tip/201903W2/Tensorflow-数据增强方法-乌守元.html">
+            
+                    
+                    Tensorflow-数据增强方法-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6.4" data-path="../../Tip/201903W2/如何在GitBash完成ARTS任务-lingyunG.html">
+            
+                <a href="../../Tip/201903W2/如何在GitBash完成ARTS任务-lingyunG.html">
+            
+                    
+                    如何在GitBash完成ARTS任务-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6.5" data-path="../../Tip/201903W2/项目依赖安装参考-yanglei094121.html">
+            
+                <a href="../../Tip/201903W2/项目依赖安装参考-yanglei094121.html">
+            
+                    
+                    项目依赖安装参考-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201903W1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.7.1" data-path="../../Tip/201903W1/AWSlambda-lingyunG.html">
+            
+                <a href="../../Tip/201903W1/AWSlambda-lingyunG.html">
+            
+                    
+                    AWSlambda-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7.2" data-path="../../Tip/201903W1/MySQL数据库四种隔离级别-YuanCome.html">
+            
+                <a href="../../Tip/201903W1/MySQL数据库四种隔离级别-YuanCome.html">
+            
+                    
+                    MySQL数据库四种隔离级别-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7.3" data-path="../../Tip/201903W1/tensorflow-图像转换-乌守元.html">
+            
+                <a href="../../Tip/201903W1/tensorflow-图像转换-乌守元.html">
+            
+                    
+                    tensorflow-图像转换-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.8" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W5
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.8.1" data-path="../../Tip/201902W5/AWS服务的一些学习资料-lingyunG.html">
+            
+                <a href="../../Tip/201902W5/AWS服务的一些学习资料-lingyunG.html">
+            
+                    
+                    AWS服务的一些学习资料-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.8.2" data-path="../../Tip/201902W5/ELK笔记-Leo.html">
+            
+                <a href="../../Tip/201902W5/ELK笔记-Leo.html">
+            
+                    
+                    ELK笔记-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.8.3" data-path="../../Tip/201902W5/cin与scanf的效率-乌守元.html">
+            
+                <a href="../../Tip/201902W5/cin与scanf的效率-乌守元.html">
+            
+                    
+                    cin与scanf的效率-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.8.4" data-path="../../Tip/201902W5/java项目中@Value读取配置文件的问题-启航.html">
+            
+                <a href="../../Tip/201902W5/java项目中@Value读取配置文件的问题-启航.html">
+            
+                    
+                    java项目中@Value读取配置文件的问题-启航.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.8.5" data-path="../../Tip/201902W5/时间空间复杂度-陈小渣.html">
+            
+                <a href="../../Tip/201902W5/时间空间复杂度-陈小渣.html">
+            
+                    
+                    时间空间复杂度-陈小渣.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.8.6" data-path="../../Tip/201902W5/链表题中的小技巧-ZmJ.html">
+            
+                <a href="../../Tip/201902W5/链表题中的小技巧-ZmJ.html">
+            
+                    
+                    链表题中的小技巧-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.9" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W4
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.9.1" data-path="../../Tip/201902W4/Android图像绘制与渲染-落英坠露.html">
+            
+                <a href="../../Tip/201902W4/Android图像绘制与渲染-落英坠露.html">
+            
+                    
+                    Android图像绘制与渲染-落英坠露.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.9.2" data-path="../../Tip/201902W4/Android音视频开发1：通过三种方式绘制图片-张大Ant.html">
+            
+                <a href="../../Tip/201902W4/Android音视频开发1：通过三种方式绘制图片-张大Ant.html">
+            
+                    
+                    Android音视频开发1：通过三种方式绘制图片-张大Ant.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.9.3" data-path="../../Tip/201902W4/Idea远程调试服务器代码-leozhiyu.html">
+            
+                <a href="../../Tip/201902W4/Idea远程调试服务器代码-leozhiyu.html">
+            
+                    
+                    Idea远程调试服务器代码-leozhiyu.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.9.4" data-path="../../Tip/201902W4/PDF复制中的文字重复问题-乌守元.html">
+            
+                <a href="../../Tip/201902W4/PDF复制中的文字重复问题-乌守元.html">
+            
+                    
+                    PDF复制中的文字重复问题-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.9.5" data-path="../../Tip/201902W4/Redis为什么不推荐使用keys命令-寒食君.html">
+            
+                <a href="../../Tip/201902W4/Redis为什么不推荐使用keys命令-寒食君.html">
+            
+                    
+                    Redis为什么不推荐使用keys命令-寒食君.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.9.6" data-path="../../Tip/201902W4/latex编译相关问题-yanglei094121.html">
+            
+                <a href="../../Tip/201902W4/latex编译相关问题-yanglei094121.html">
+            
+                    
+                    latex编译相关问题-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.9.7" data-path="../../Tip/201902W4/travis.ci持续集成工具-ZmJ.html">
+            
+                <a href="../../Tip/201902W4/travis.ci持续集成工具-ZmJ.html">
+            
+                    
+                    travis.ci持续集成工具-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.9.8" data-path="../../Tip/201902W4/带BOM的UTF-8格式和普通UTF-8格式的区别-YuanCome.html">
+            
+                <a href="../../Tip/201902W4/带BOM的UTF-8格式和普通UTF-8格式的区别-YuanCome.html">
+            
+                    
+                    带BOM的UTF-8格式和普通UTF-8格式的区别-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.10" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.10.1" data-path="../../Tip/201902W3/ARTS周报脚本-ZmJ.html">
+            
+                <a href="../../Tip/201902W3/ARTS周报脚本-ZmJ.html">
+            
+                    
+                    ARTS周报脚本-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.10.2" data-path="../../Tip/201902W3/AWS资源成本管理-Leo.html">
+            
+                <a href="../../Tip/201902W3/AWS资源成本管理-Leo.html">
+            
+                    
+                    AWS资源成本管理-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.10.3" data-path="../../Tip/201902W3/update光场相机模拟程序解读-yanglei094121.html">
+            
+                <a href="../../Tip/201902W3/update光场相机模拟程序解读-yanglei094121.html">
+            
+                    
+                    update光场相机模拟程序解读-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.10.4" data-path="../../Tip/201902W3/vim的使用技巧-starichat.html">
+            
+                <a href="../../Tip/201902W3/vim的使用技巧-starichat.html">
+            
+                    
+                    vim的使用技巧-starichat.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.10.5" data-path="../../Tip/201902W3/宏观CSS-陈小渣.html">
+            
+                <a href="../../Tip/201902W3/宏观CSS-陈小渣.html">
+            
+                    
+                    宏观CSS-陈小渣.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.11" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.11.1" data-path="../../Tip/201902W2/RabbitMQ6-RPC-Leo.html">
+            
+                <a href="../../Tip/201902W2/RabbitMQ6-RPC-Leo.html">
+            
+                    
+                    RabbitMQ6-RPC-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.11.2" data-path="../../Tip/201902W2/光场相机模拟程序解读-yanglei094121.html">
+            
+                <a href="../../Tip/201902W2/光场相机模拟程序解读-yanglei094121.html">
+            
+                    
+                    光场相机模拟程序解读-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.12" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.12.1" data-path="../../Tip/201902W1/Android下的JNI使用-张大Ant.html">
+            
+                <a href="../../Tip/201902W1/Android下的JNI使用-张大Ant.html">
+            
+                    
+                    Android下的JNI使用-张大Ant.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.12.2" data-path="../../Tip/201902W1/Flask的线程隔离-yu.html">
+            
+                <a href="../../Tip/201902W1/Flask的线程隔离-yu.html">
+            
+                    
+                    Flask的线程隔离-yu.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.12.3" data-path="../../Tip/201902W1/GitHub团队协作git流程-yanglei094121.html">
+            
+                <a href="../../Tip/201902W1/GitHub团队协作git流程-yanglei094121.html">
+            
+                    
+                    GitHub团队协作git流程-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.12.4" data-path="../../Tip/201902W1/Guava为什么被取代-寒食君.html">
+            
+                <a href="../../Tip/201902W1/Guava为什么被取代-寒食君.html">
+            
+                    
+                    Guava为什么被取代-寒食君.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.12.5" data-path="../../Tip/201902W1/RabbitMQ4-Routing-Leo.html">
+            
+                <a href="../../Tip/201902W1/RabbitMQ4-Routing-Leo.html">
+            
+                    
+                    RabbitMQ4-Routing-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.12.6" data-path="../../Tip/201902W1/Solr的那些事-torreyxian.html">
+            
+                <a href="../../Tip/201902W1/Solr的那些事-torreyxian.html">
+            
+                    
+                    Solr的那些事-torreyxian.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.12.7" data-path="../../Tip/201902W1/Windows工具软件-落英坠露.html">
+            
+                <a href="../../Tip/201902W1/Windows工具软件-落英坠露.html">
+            
+                    
+                    Windows工具软件-落英坠露.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.12.8" data-path="../../Tip/201902W1/Windows索引工具Wox-YuanCome.html">
+            
+                <a href="../../Tip/201902W1/Windows索引工具Wox-YuanCome.html">
+            
+                    
+                    Windows索引工具Wox-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.12.9" data-path="../../Tip/201902W1/集合遍历方式的选择-启航.html">
+            
+                <a href="../../Tip/201902W1/集合遍历方式的选择-启航.html">
+            
+                    
+                    集合遍历方式的选择-启航.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.13" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201901W4
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.13.1" data-path="../../Tip/201901W4/CSS文章排版小技巧-yu.html">
+            
+                <a href="../../Tip/201901W4/CSS文章排版小技巧-yu.html">
+            
+                    
+                    CSS文章排版小技巧-yu.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.13.2" data-path="../../Tip/201901W4/Git-Hook自定义工作流-ZmJ.html">
+            
+                <a href="../../Tip/201901W4/Git-Hook自定义工作流-ZmJ.html">
+            
+                    
+                    Git-Hook自定义工作流-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.13.3" data-path="../../Tip/201901W4/ImagePy简单介绍-yanglei094121.html">
+            
+                <a href="../../Tip/201901W4/ImagePy简单介绍-yanglei094121.html">
+            
+                    
+                    ImagePy简单介绍-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.13.4" data-path="../../Tip/201901W4/Premiere中常用快捷键-波胖子.html">
+            
+                <a href="../../Tip/201901W4/Premiere中常用快捷键-波胖子.html">
+            
+                    
+                    Premiere中常用快捷键-波胖子.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.13.5" data-path="../../Tip/201901W4/SpringCloud底层原理-Iris.html">
+            
+                <a href="../../Tip/201901W4/SpringCloud底层原理-Iris.html">
+            
+                    
+                    SpringCloud底层原理-Iris.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.13.6" data-path="../../Tip/201901W4/markdown-torreyxian.html">
+            
+                <a href="../../Tip/201901W4/markdown-torreyxian.html">
+            
+                    
+                    markdown-torreyxian.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.13.7" data-path="../../Tip/201901W4/windows下安装linux虚拟机-启航.html">
+            
+                <a href="../../Tip/201901W4/windows下安装linux虚拟机-启航.html">
+            
+                    
+                    windows下安装linux虚拟机-启航.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.13.8" data-path="../../Tip/201901W4/为什么使用JSON作为函数参数-陈小渣.html">
+            
+                <a href="../../Tip/201901W4/为什么使用JSON作为函数参数-陈小渣.html">
+            
+                    
+                    为什么使用JSON作为函数参数-陈小渣.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.13.9" data-path="../../Tip/201901W4/公众号爬虫的有效姿势-huzujun.html">
+            
+                <a href="../../Tip/201901W4/公众号爬虫的有效姿势-huzujun.html">
+            
+                    
+                    公众号爬虫的有效姿势-huzujun.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.13.10" data-path="../../Tip/201901W4/分享两个自己常用的工具(Everything、百度网盘客户端">
+            
+                <span>
+            
+                    
+                    分享两个自己常用的工具(Everything、百度网盘客户端)-zhaopengfei.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.13.11" data-path="../../Tip/201901W4/如何用简单的方式生成带标签的pdf-Leo.html">
+            
+                <a href="../../Tip/201901W4/如何用简单的方式生成带标签的pdf-Leo.html">
+            
+                    
+                    如何用简单的方式生成带标签的pdf-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.13.12" data-path="../../Tip/201901W4/模版元编程（00）-puck.html">
+            
+                <a href="../../Tip/201901W4/模版元编程（00）-puck.html">
+            
+                    
+                    模版元编程（00）-puck.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.13.13" data-path="../../Tip/201901W4/第一次尝试写Markdown文章-YuanCome.html">
+            
+                <a href="../../Tip/201901W4/第一次尝试写Markdown文章-YuanCome.html">
+            
+                    
+                    第一次尝试写Markdown文章-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.13.14" data-path="../../Tip/201901W4/谈一谈ThreadLocal-寒食君.html">
+            
+                <a href="../../Tip/201901W4/谈一谈ThreadLocal-寒食君.html">
+            
+                    
+                    谈一谈ThreadLocal-寒食君.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Share
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201904W3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1.1" data-path="../201904W3/汇编语言-第五章-BX-和loop指令-乌守元.html">
+            
+                <a href="../201904W3/汇编语言-第五章-BX-和loop指令-乌守元.html">
+            
+                    
+                    汇编语言-第五章-BX-和loop指令-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201904W2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.2.1" data-path="../201904W2/左耳听风的专栏有感-lingyunG.html">
+            
+                <a href="../201904W2/左耳听风的专栏有感-lingyunG.html">
+            
+                    
+                    左耳听风的专栏有感-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.2" data-path="../201904W2/装饰者模式-HardJ.html">
+            
+                <a href="../201904W2/装饰者模式-HardJ.html">
+            
+                    
+                    装饰者模式-HardJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201904W1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.3.1" data-path="../201904W1/从女码农到女leader的忐忑之路-lingyunG.html">
+            
+                <a href="../201904W1/从女码农到女leader的忐忑之路-lingyunG.html">
+            
+                    
+                    从女码农到女leader的忐忑之路-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201903W4
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.4.1" data-path="../201903W4/哈希算法的应用续-starichat.html">
+            
+                <a href="../201903W4/哈希算法的应用续-starichat.html">
+            
+                    
+                    哈希算法的应用续-starichat.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4.2" data-path="../201903W4/汇编语言-第四章-第一个程序-乌守元.html">
+            
+                <a href="../201903W4/汇编语言-第四章-第一个程序-乌守元.html">
+            
+                    
+                    汇编语言-第四章-第一个程序-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.5" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201903W3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.5.1" data-path="../201903W3/《智能时代》书摘-lingyunG.html">
+            
+                <a href="../201903W3/《智能时代》书摘-lingyunG.html">
+            
+                    
+                    《智能时代》书摘-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.5.2" data-path="../201903W3/汇编语言-第三章-寄存器(内存访问">
+            
+                <span>
+            
+                    
+                    汇编语言-第三章-寄存器(内存访问)-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.6" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201903W2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.6.1" data-path="windows下的Linux环境-ZmJ.html">
+            
+                <a href="windows下的Linux环境-ZmJ.html">
+            
+                    
+                    windows下的Linux环境-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.6.2" data-path="亏格理解-yanglei094121.html">
+            
+                <a href="亏格理解-yanglei094121.html">
+            
+                    
+                    亏格理解-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.6.3" data-path="公务员招聘要求-YuanCome.html">
+            
+                <a href="公务员招聘要求-YuanCome.html">
+            
+                    
+                    公务员招聘要求-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="5.1.6.4" data-path="汇编语言-第二章-寄存器-乌守元.html">
+            
+                <a href="汇编语言-第二章-寄存器-乌守元.html">
+            
+                    
+                    汇编语言-第二章-寄存器-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.6.5" data-path="深入理解java虚拟机-lingyunG.html">
+            
+                <a href="深入理解java虚拟机-lingyunG.html">
+            
+                    
+                    深入理解java虚拟机-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.7" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201903W1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.7.1" data-path="../201903W1/Java开发手册之命名规约-落英坠露.html">
+            
+                <a href="../201903W1/Java开发手册之命名规约-落英坠露.html">
+            
+                    
+                    Java开发手册之命名规约-落英坠露.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.7.2" data-path="../201903W1/分享一些自己喜欢的公众号-lingyunG.html">
+            
+                <a href="../201903W1/分享一些自己喜欢的公众号-lingyunG.html">
+            
+                    
+                    分享一些自己喜欢的公众号-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.7.3" data-path="../201903W1/汇编语言-第一章-基础知识-乌守元.html">
+            
+                <a href="../201903W1/汇编语言-第一章-基础知识-乌守元.html">
+            
+                    
+                    汇编语言-第一章-基础知识-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.7.4" data-path="../201903W1/闭包-漠野.html">
+            
+                <a href="../201903W1/闭包-漠野.html">
+            
+                    
+                    闭包-漠野.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.8" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W5
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.8.1" data-path="../201902W5/《见识--商业的本质和人生的智慧》之商业的本质-落英坠露.html">
+            
+                <a href="../201902W5/《见识--商业的本质和人生的智慧》之商业的本质-落英坠露.html">
+            
+                    
+                    《见识--商业的本质和人生的智慧》之商业的本质-落英坠露.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.8.2" data-path="../201902W5/信息论与编码-第一章绪论-乌守元.html">
+            
+                <a href="../201902W5/信息论与编码-第一章绪论-乌守元.html">
+            
+                    
+                    信息论与编码-第一章绪论-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.8.3" data-path="../201902W5/如何生成Gitbook-ZmJ.html">
+            
+                <a href="../201902W5/如何生成Gitbook-ZmJ.html">
+            
+                    
+                    如何生成Gitbook-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.8.4" data-path="../201902W5/思维导图-陈小渣.html">
+            
+                <a href="../201902W5/思维导图-陈小渣.html">
+            
+                    
+                    思维导图-陈小渣.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.8.5" data-path="../201902W5/测试工作的一些感想-Leo.html">
+            
+                <a href="../201902W5/测试工作的一些感想-Leo.html">
+            
+                    
+                    测试工作的一些感想-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.8.6" data-path="../201902W5/连岳文章《我们要成为特别优秀的人吗？》有感-lingyunG.html">
+            
+                <a href="../201902W5/连岳文章《我们要成为特别优秀的人吗？》有感-lingyunG.html">
+            
+                    
+                    连岳文章《我们要成为特别优秀的人吗？》有感-lingyunG.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.9" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W4
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.9.1" data-path="../201902W4/markdown插入数学公式-yanglei094121.html">
+            
+                <a href="../201902W4/markdown插入数学公式-yanglei094121.html">
+            
+                    
+                    markdown插入数学公式-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.9.2" data-path="../201902W4/vim的一些插件和配置-ZmJ.html">
+            
+                <a href="../201902W4/vim的一些插件和配置-ZmJ.html">
+            
+                    
+                    vim的一些插件和配置-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.9.3" data-path="../201902W4/不要急，慢慢来-YuanCome.html">
+            
+                <a href="../201902W4/不要急，慢慢来-YuanCome.html">
+            
+                    
+                    不要急，慢慢来-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.9.4" data-path="../201902W4/主动一点，你的世界会更大-乌守元.html">
+            
+                <a href="../201902W4/主动一点，你的世界会更大-乌守元.html">
+            
+                    
+                    主动一点，你的世界会更大-乌守元.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.9.5" data-path="../201902W4/关于H5活动的想法-寒食君.html">
+            
+                <a href="../201902W4/关于H5活动的想法-寒食君.html">
+            
+                    
+                    关于H5活动的想法-寒食君.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.9.6" data-path="../201902W4/前端前端传数据时小问题-启航.html">
+            
+                <a href="../201902W4/前端前端传数据时小问题-启航.html">
+            
+                    
+                    前端前端传数据时小问题-启航.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.9.7" data-path="../201902W4/毛泽东：有理，有利，有节-张大Ant.html">
+            
+                <a href="../201902W4/毛泽东：有理，有利，有节-张大Ant.html">
+            
+                    
+                    毛泽东：有理，有利，有节-张大Ant.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.10" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.10.1" data-path="../201902W3/2019考研题解读-yanglei094121.html">
+            
+                <a href="../201902W3/2019考研题解读-yanglei094121.html">
+            
+                    
+                    2019考研题解读-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.10.2" data-path="../201902W3/Go语言中管道堵塞+互斥死锁分析-Zoctopus.html">
+            
+                <a href="../201902W3/Go语言中管道堵塞+互斥死锁分析-Zoctopus.html">
+            
+                    
+                    Go语言中管道堵塞+互斥死锁分析-Zoctopus.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.10.3" data-path="../201902W3/Ljava.lang.String异常-启航.html">
+            
+                <a href="../201902W3/Ljava.lang.String异常-启航.html">
+            
+                    
+                    Ljava.lang.String异常-启航.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.10.4" data-path="../201902W3/dlv调试小结-Zoctopus.html">
+            
+                <a href="../201902W3/dlv调试小结-Zoctopus.html">
+            
+                    
+                    dlv调试小结-Zoctopus.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.10.5" data-path="../201902W3/《富爸爸穷爸爸》部分引言-Leo.html">
+            
+                <a href="../201902W3/《富爸爸穷爸爸》部分引言-Leo.html">
+            
+                    
+                    《富爸爸穷爸爸》部分引言-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.10.6" data-path="../201902W3/修改git-commit-message-ZmJ.html">
+            
+                <a href="../201902W3/修改git-commit-message-ZmJ.html">
+            
+                    
+                    修改git-commit-message-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.10.7" data-path="../201902W3/哈希算法的应用-starichat.html">
+            
+                <a href="../201902W3/哈希算法的应用-starichat.html">
+            
+                    
+                    哈希算法的应用-starichat.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.10.8" data-path="../201902W3/工作日，我想分享的三个生活习惯-陈小渣.html">
+            
+                <a href="../201902W3/工作日，我想分享的三个生活习惯-陈小渣.html">
+            
+                    
+                    工作日，我想分享的三个生活习惯-陈小渣.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.11" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.11.1" data-path="../201902W2/Hibernate操作Oracle时主键序列化问题-启航.html">
+            
+                <a href="../201902W2/Hibernate操作Oracle时主键序列化问题-启航.html">
+            
+                    
+                    Hibernate操作Oracle时主键序列化问题-启航.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.11.2" data-path="../201902W2/假期小感想-Leo.html">
+            
+                <a href="../201902W2/假期小感想-Leo.html">
+            
+                    
+                    假期小感想-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.11.3" data-path="../201902W2/粤语歌钟无艳学习-yanglei094121.html">
+            
+                <a href="../201902W2/粤语歌钟无艳学习-yanglei094121.html">
+            
+                    
+                    粤语歌钟无艳学习-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.12" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201902W1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.12.1" data-path="../201902W1/RabbitMQ3-PublishSubscribe-Leo.html">
+            
+                <a href="../201902W1/RabbitMQ3-PublishSubscribe-Leo.html">
+            
+                    
+                    RabbitMQ3-PublishSubscribe-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.12.2" data-path="../201902W1/SpringBoot全局统一异常处理-YuanCome.html">
+            
+                <a href="../201902W1/SpringBoot全局统一异常处理-YuanCome.html">
+            
+                    
+                    SpringBoot全局统一异常处理-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.12.3" data-path="../201902W1/《操作系统之哲学原理》--系统调用-启航.html">
+            
+                <a href="../201902W1/《操作系统之哲学原理》--系统调用-启航.html">
+            
+                    
+                    《操作系统之哲学原理》--系统调用-启航.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.12.4" data-path="../201902W1/《深入理解计算机系统》之存储器层次结构-落英坠露.html">
+            
+                <a href="../201902W1/《深入理解计算机系统》之存储器层次结构-落英坠露.html">
+            
+                    
+                    《深入理解计算机系统》之存储器层次结构-落英坠露.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.12.5" data-path="../201902W1/何为贵人，以及圈子的重要性-张大Ant.html">
+            
+                <a href="../201902W1/何为贵人，以及圈子的重要性-张大Ant.html">
+            
+                    
+                    何为贵人，以及圈子的重要性-张大Ant.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.12.6" data-path="../201902W1/你看到的AI与智能无关-寒食君.html">
+            
+                <a href="../201902W1/你看到的AI与智能无关-寒食君.html">
+            
+                    
+                    你看到的AI与智能无关-寒食君.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.12.7" data-path="../201902W1/使用matlab将灰度图转换为彩色图-yanglei094121.html">
+            
+                <a href="../201902W1/使用matlab将灰度图转换为彩色图-yanglei094121.html">
+            
+                    
+                    使用matlab将灰度图转换为彩色图-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.12.8" data-path="../201902W1/思考与反思-torreyxian.html">
+            
+                <a href="../201902W1/思考与反思-torreyxian.html">
+            
+                    
+                    思考与反思-torreyxian.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.12.9" data-path="../201902W1/每天练习写作-yu.html">
+            
+                <a href="../201902W1/每天练习写作-yu.html">
+            
+                    
+                    每天练习写作-yu.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.12.10" data-path="../201902W1/浅谈Git之拉取与合并-ZmJ.html">
+            
+                <a href="../201902W1/浅谈Git之拉取与合并-ZmJ.html">
+            
+                    
+                    浅谈Git之拉取与合并-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.13" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    201901W4
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.13.1" data-path="../201901W4/Django查询优化之select_related、prefetch_related-ZmJ.html">
+            
+                <a href="../201901W4/Django查询优化之select_related、prefetch_related-ZmJ.html">
+            
+                    
+                    Django查询优化之select_related、prefetch_related-ZmJ.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.13.2" data-path="../201901W4/SpringBoot和Vue前后端分离开发与合并-YuanCome.html">
+            
+                <a href="../201901W4/SpringBoot和Vue前后端分离开发与合并-YuanCome.html">
+            
+                    
+                    SpringBoot和Vue前后端分离开发与合并-YuanCome.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.13.3" data-path="../201901W4/《FlaskWeb开发实战》之Flask的工作流程与机制-EruDev.html">
+            
+                <a href="../201901W4/《FlaskWeb开发实战》之Flask的工作流程与机制-EruDev.html">
+            
+                    
+                    《FlaskWeb开发实战》之Flask的工作流程与机制-EruDev.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.13.4" data-path="../201901W4/《什么是真正的程序员》有感-yu.html">
+            
+                <a href="../201901W4/《什么是真正的程序员》有感-yu.html">
+            
+                    
+                    《什么是真正的程序员》有感-yu.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.13.5" data-path="../201901W4/《深入浅出设计模式》-启航.html">
+            
+                <a href="../201901W4/《深入浅出设计模式》-启航.html">
+            
+                    
+                    《深入浅出设计模式》-启航.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.13.6" data-path="../201901W4/《深入理解计算机系统》之操作系统管理硬件-落英坠露.html">
+            
+                <a href="../201901W4/《深入理解计算机系统》之操作系统管理硬件-落英坠露.html">
+            
+                    
+                    《深入理解计算机系统》之操作系统管理硬件-落英坠露.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.13.7" data-path="../201901W4/与百度有关的随想-陈小渣.html">
+            
+                <a href="../201901W4/与百度有关的随想-陈小渣.html">
+            
+                    
+                    与百度有关的随想-陈小渣.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.13.8" data-path="../201901W4/什么叫“先把书读厚，再把书读薄”笔记-波胖子.html">
+            
+                <a href="../201901W4/什么叫“先把书读厚，再把书读薄”笔记-波胖子.html">
+            
+                    
+                    什么叫“先把书读厚，再把书读薄”笔记-波胖子.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.13.9" data-path="../201901W4/从实习中领悟的软技能-Leo.html">
+            
+                <a href="../201901W4/从实习中领悟的软技能-Leo.html">
+            
+                    
+                    从实习中领悟的软技能-Leo.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.13.10" data-path="../201901W4/光场计算成像空域-yanglei094121.html">
+            
+                <a href="../201901W4/光场计算成像空域-yanglei094121.html">
+            
+                    
+                    光场计算成像空域-yanglei094121.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.13.11" data-path="../201901W4/公众号文章有感-torreyxian.html">
+            
+                <a href="../201901W4/公众号文章有感-torreyxian.html">
+            
+                    
+                    公众号文章有感-torreyxian.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.13.12" data-path="../201901W4/既生Java，何生Groovy？-寒食君.html">
+            
+                <a href="../201901W4/既生Java，何生Groovy？-寒食君.html">
+            
+                    
+                    既生Java，何生Groovy？-寒食君.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.13.13" data-path="../201901W4/百度的原罪—封杀Google的黑内幕-puck.html">
+            
+                <a href="../201901W4/百度的原罪—封杀Google的黑内幕-puck.html">
+            
+                    
+                    百度的原罪—封杀Google的黑内幕-puck.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.13.14" data-path="../201901W4/解决bug的偏方-Iris.html">
+            
+                <a href="../201901W4/解决bug的偏方-Iris.html">
+            
+                    
+                    解决bug的偏方-Iris.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >汇编语言-第二章-寄存器-乌守元.md</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;">&#x7B2C;&#x4E8C;&#x7AE0; &#x5BC4;&#x5B58;&#x5668;</h2>
+<p>&#x5728; CPU &#x4E2D;&#xFF1A;</p>
+<ul>
+<li>&#x8FD0;&#x7B97;&#x5668;&#x8FDB;&#x884C;&#x4FE1;&#x606F;&#x5904;&#x7406;&#xFF1B;</li>
+<li>&#x5BC4;&#x5B58;&#x5668;&#x8FDB;&#x884C;&#x4FE1;&#x606F;&#x5B58;&#x50A8;&#xFF08;&#x4E3B;&#x8981;&#x90E8;&#x5206;&#xFF0C;&#x5DE5;&#x4F5C;&#x539F;&#x7406;&#xFF09;&#xFF1B;</li>
+<li>&#x63A7;&#x5236;&#x5668;&#x63A7;&#x5236;&#x5404;&#x79CD;&#x5668;&#x4EF6;&#x8FDB;&#x884C;&#x5DE5;&#x4F5C;&#xFF1B;</li>
+<li>&#x5185;&#x90E8;&#x603B;&#x7EBF;&#x8FDE;&#x63A5;&#x5404;&#x79CD;&#x5668;&#x4EF6;&#xFF0C;&#x5728;&#x5B83;&#x4EEC;&#x4E4B;&#x95F4;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x7684;&#x4F20;&#x9001;&#x3002;</li>
+</ul>
+<p>&#x4E0D;&#x540C;&#x7684; CPU&#xFF0C;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x4E2A;&#x6570;&#x3001;&#x7ED3;&#x6784;&#x4E0D;&#x540C;&#x3002;8086CPU &#x6709; 14 &#x4E2A;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x5206;&#x522B;&#x662F;&#xFF1A;AX&#x3001;BX&#x3001;CX&#x3001;DX&#x3001;SI&#x3001;DI&#x3001;SP&#x3001;BP&#x3001;CS&#x3001;SS&#x3001;DS&#x3001;ES&#x3001;PSW&#x3002;</p>
+<h3 id="21-&#x901A;&#x7528;&#x5BC4;&#x5B58;&#x5668;">2.1 &#x901A;&#x7528;&#x5BC4;&#x5B58;&#x5668;</h3>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551623338802.png" alt=""></p>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551623391671.png" alt=""></p>
+<p>8086CPU &#x7684;&#x4E0A;&#x4E00;&#x4EE3; CPU &#x4E2D;&#x7684;&#x5BC4;&#x5B58;&#x5668;&#x90FD;&#x662F; 8 &#x4F4D;&#x7684;&#xFF0C;&#x4E3A;&#x4E86;&#x4FDD;&#x8BC1;&#x517C;&#x5BB9;&#xFF0C;8086CPU &#x7684; AX&#x3001;BX&#x3001;CX&#x3001;DX &#x90FD;&#x53EF;&#x4EE5;&#x5206;&#x4E3A; 2 &#x4E2A;&#x53EF;&#x72EC;&#x7ACB;&#x4F7F;&#x7528;&#x7684; 8 &#x4F4D;&#x5BC4;&#x5B58;&#x5668;&#x6765;&#x4F7F;&#x7528;&#xFF1A;</p>
+<ul>
+<li>AX &#x53EF;&#x5206;&#x4E3A; AH &#x548C; AL&#xFF1B;</li>
+<li>BX &#x53EF;&#x5206;&#x4E3A; BH &#x548C; BL&#xFF1B;</li>
+<li>CX &#x53EF;&#x5206;&#x4E3A; CH &#x548C; CL&#xFF1B;</li>
+<li>DX &#x53EF;&#x5206;&#x4E3A; DH &#x548C; DL&#x3002;</li>
+</ul>
+<p>AX &#x7684;&#x4F4E; 8 &#x4F4D;&#xFF08;0-7&#xFF09;&#x6784;&#x6210;&#x4E86; AL &#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x9AD8; 8 &#x4F4D;&#xFF08;8-15&#xFF09;&#x6784;&#x6210;&#x4E86; AH &#x5BC4;&#x5B58;&#x5668;&#x3002;&#x5B83;&#x4EEC;&#x662F;&#x53EF;&#x4EE5;&#x72EC;&#x7ACB;&#x4F7F;&#x7528;&#x7684; 8 &#x4F4D;&#x5BC4;&#x5B58;&#x5668;&#x3002;</p>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551623762373.png" alt=""></p>
+<h3 id="22-&#x5B57;&#x5728;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#x7684;&#x5B58;&#x50A8;">2.2 &#x5B57;&#x5728;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#x7684;&#x5B58;&#x50A8;</h3>
+<p>8086CPU &#x53EF;&#x4EE5;&#x4E00;&#x6B21;&#x5904;&#x7406;&#x201C;&#x5B57;&#x8282;&#x201D;&#x548C;&#x201C;&#x5B57;&#x201D;&#x4E24;&#x79CD;&#x5C3A;&#x5BF8;&#x7684;&#x6570;&#x636E;&#x3002;</p>
+<p>&#x4E00;&#x4E2A;&#x5B57;&#x53EF;&#x4EE5;&#x5B58;&#x5728;&#x4E00;&#x4E2A; 16 &#x4F4D;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#xFF0C;&#x8FD9;&#x4E2A;&#x5B57;&#x7684;&#x9AD8;&#x4F4D;&#x5B57;&#x8282;&#x548C;&#x5730;&#x4F4D;&#x5B57;&#x8282;&#x5B58;&#x5728;&#x8FD9;&#x4E2A;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x9AD8; 8 &#x4F4D;&#x5BC4;&#x5B58;&#x5668;&#x548C;&#x4F4E; 8 &#x4F4D;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#x3002;&#x56FE; 2.4 &#x65E2;&#x53EF;&#x4EE5;&#x662F; 20000&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x662F; 78 &#x548C; 32&#x3002;</p>
+<h3 id="23-&#x51E0;&#x6761;&#x6C47;&#x7F16;&#x6307;&#x4EE4;">2.3 &#x51E0;&#x6761;&#x6C47;&#x7F16;&#x6307;&#x4EE4;</h3>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551624087883.png" alt=""></p>
+<p>&#x539F; AX &#x4E2D;&#x7684;&#x503C;&#xFF1A;0000H&#xFF0C;&#x539F; BX &#x4E2D;&#x7684;&#x503C;&#xFF1A;0000H&#x3002;</p>
+<p>&#x7A0B;&#x5E8F;&#x6BB5;&#x4E2D;&#x6307;&#x4EE4;&#x7684;&#x6267;&#x884C;&#x60C5;&#x51B5;&#x4E4B;&#x4E00;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>&#x7A0B;&#x5E8F;&#x6BB5;&#x4E2D;&#x7684;&#x6307;&#x4EE4;</th>
+<th>&#x6307;&#x4EE4;&#x6267;&#x884C;&#x540E; AX &#x4E2D;&#x7684;&#x6570;&#x636E;</th>
+<th>&#x6307;&#x4EE4;&#x6267;&#x884C;&#x540E; BX &#x4E2D;&#x7684;&#x6570;&#x636E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mov ax,4E20H</td>
+<td>4E20H</td>
+<td>0000H</td>
+</tr>
+<tr>
+<td>add ax,1406H</td>
+<td>6226H</td>
+<td>0000H</td>
+</tr>
+<tr>
+<td>mov bx,2000H</td>
+<td>6226H</td>
+<td>2000H</td>
+</tr>
+<tr>
+<td>add ax,bx</td>
+<td>8226H</td>
+<td>2000H</td>
+</tr>
+<tr>
+<td>mov bx,ax</td>
+<td>8226H</td>
+<td>8226H</td>
+</tr>
+<tr>
+<td>add ax,bx</td>
+<td>044CH</td>
+<td>8226H</td>
+</tr>
+</tbody>
+</table>
+<p>&#x6700;&#x540E;&#x4E00;&#x6761;&#x6307;&#x4EE4;&#xFF0C;&#x628A; ax &#x4E0E; bx &#x4E2D;&#x6570;&#x636E;&#x76F8;&#x52A0;&#xFF0C;&#x6240;&#x5F97;&#x503C;&#x4F4D; 1044CH&#xFF0C;&#x4F46;&#x662F; ax &#x4E3A; 16 &#x4F4D;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x53EA;&#x80FD;&#x5B58;&#x653E; 4 &#x4F4D;&#x5341;&#x516D;&#x8FDB;&#x5236;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x6240;&#x4EE5;&#x6700;&#x9AD8;&#x4F4D;&#x7684; 1 &#x4E0D;&#x80FD;&#x5728; ax &#x4E2D;&#x4FDD;&#x5B58;&#xFF0C;&#x5373; ax &#x4E2D;&#x7684;&#x6570;&#x636E;&#x4E3A; 044CH&#x3002;</p>
+<p>&#x7A0B;&#x5E8F;&#x6BB5;&#x4E2D;&#x6307;&#x4EE4;&#x7684;&#x6267;&#x884C;&#x60C5;&#x51B5;&#x4E4B;&#x4E8C;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>&#x7A0B;&#x5E8F;&#x6BB5;&#x4E2D;&#x7684;&#x6307;&#x4EE4;</th>
+<th>&#x6307;&#x4EE4;&#x6267;&#x884C;&#x540E; AX &#x4E2D;&#x7684;&#x6570;&#x636E;</th>
+<th>&#x6307;&#x4EE4;&#x6267;&#x884C;&#x540E; BX &#x4E2D;&#x7684;&#x6570;&#x636E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mov ax,001AH</td>
+<td>001AH</td>
+<td>0000H</td>
+</tr>
+<tr>
+<td>mov bx,0026H</td>
+<td>001AH</td>
+<td>0026H</td>
+</tr>
+<tr>
+<td>add al,bl</td>
+<td>0040H</td>
+<td>0026H</td>
+</tr>
+<tr>
+<td>add ah,bl</td>
+<td>2640H</td>
+<td>0026H</td>
+</tr>
+<tr>
+<td>add bh,al</td>
+<td>2640H</td>
+<td>4026H</td>
+</tr>
+<tr>
+<td>mov ah,0</td>
+<td>0040H</td>
+<td>4026H</td>
+</tr>
+<tr>
+<td>add al,85H</td>
+<td>00C5H</td>
+<td>4026H</td>
+</tr>
+<tr>
+<td>add al,93H</td>
+<td>0158H</td>
+<td>4026H</td>
+</tr>
+</tbody>
+</table>
+<p>&#x6B64;&#x65F6;&#xFF0C;al &#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x72EC;&#x7ACB;&#x7684; 8 &#x4F4D;&#x5BC4;&#x5B58;&#x5668;&#x6765;&#x4F7F;&#x7528;&#xFF0C;&#x548C; ah &#x6CA1;&#x6709;&#x5173;&#x7CFB;&#x3002;</p>
+<p>&#x5728;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x4F20;&#x9001;&#x6216;&#x8FD0;&#x7B97;&#x65F6;&#xFF0C;&#x6307;&#x4EE4;&#x7684;&#x4E24;&#x4E2A;&#x64CD;&#x4F5C;&#x5BF9;&#x8C61;&#x7684;&#x4F4D;&#x6570;&#x5E94;&#x5F53;&#x662F;&#x4E00;&#x81F4;&#x7684;&#x3002;&#x4E0D;&#x4E00;&#x81F4;&#x5C31;&#x662F;&#x9519;&#x8BEF;&#x7684;&#x6307;&#x4EE4;&#x3002;</p>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551659991033.png" alt=""></p>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551660048767.png" alt=""></p>
+<p>&#xFF08;1&#xFF09;F4A3H&#xFF1B;31A3H&#xFF1B;3123H&#xFF1B;6246H&#xFF1B;826CH&#xFF1B;6246H&#xFF1B;826CH&#xFF1B;04D8H&#xFF1B;0482H&#xFF1B;6C82H&#xFF1B;D882H&#xFF1B;D888H&#xFF1B;D810H&#xFF1B;6246H&#xFF1B;</p>
+<p>&#xFF08;2&#xFF09;mov al,2&#xFF1B;add al,al&#xFF1B;add al,al&#xFF1B;add al,al&#x3002;</p>
+<h3 id="24-&#x7269;&#x7406;&#x5730;&#x5740;">2.4 &#x7269;&#x7406;&#x5730;&#x5740;</h3>
+<p>&#x6240;&#x6709;&#x7684;&#x5185;&#x5B58;&#x5355;&#x5143;&#x6784;&#x6210;&#x7684;&#x5185;&#x5B58;&#x7A7A;&#x95F4;&#x662F;&#x4E00;&#x4E2A;&#x4E00;&#x7EF4;&#x7684;&#x7EBF;&#x6027;&#x7A7A;&#x95F4;&#xFF0C;&#x6BCF;&#x4E00;&#x4E2A;&#x5185;&#x5B58;&#x5355;&#x5143;&#x5728;&#x8FD9;&#x4E2A;&#x7A7A;&#x95F4;&#x90FD;&#x6709;&#x552F;&#x4E00;&#x7684;&#x5730;&#x5740;&#xFF0C;&#x79F0;&#x4E3A;&#x7269;&#x7406;&#x5730;&#x5740;&#x3002;CPU &#x901A;&#x8FC7;&#x5730;&#x5740;&#x603B;&#x7EBF;&#x9001;&#x5165;&#x5B58;&#x50A8;&#x5668;&#x7684;&#xFF0C;&#x5FC5;&#x987B;&#x662F;&#x4E00;&#x4E2A;&#x5185;&#x5B58;&#x5355;&#x5143;&#x7684;&#x7269;&#x7406;&#x5730;&#x5740;&#xFF0C;&#x4E8C;&#x7269;&#x7406;&#x5730;&#x5740;&#x5FC5;&#x987B;&#x5148;&#x5728;&#x5185;&#x90E8;&#x5F62;&#x6210;&#x3002;</p>
+<h3 id="25-16-&#x4F4D;&#x7ED3;&#x6784;&#x7684;-cpu">2.5 16 &#x4F4D;&#x7ED3;&#x6784;&#x7684; CPU</h3>
+<p>16 &#x4F4D;&#x7ED3;&#x6784;&#xFF08;16 &#x4F4D;&#x673A;&#xFF0C;&#x5B57;&#x957F;&#x4E3A; 16 &#x4F4D;&#xFF09;&#x7684; CPU &#x6709;&#x4EE5;&#x4E0B;&#x7279;&#x6027;&#xFF1A;</p>
+<ul>
+<li>&#x8FD0;&#x7B97;&#x5668;&#x4E00;&#x6B21;&#x6700;&#x591A;&#x53EF;&#x4EE5;&#x5904;&#x7406; 16 &#x4F4D;&#x7684;&#x6570;&#x636E;&#xFF1B;</li>
+<li>&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x6700;&#x5927;&#x5BBD;&#x5EA6;&#x4E3A; 16 &#x4F4D;&#xFF1B;</li>
+<li>&#x5BC4;&#x5B58;&#x5668;&#x548C;&#x8FD0;&#x7B97;&#x5668;&#x4E4B;&#x95F4;&#x7684;&#x901A;&#x8DEF;&#x4E3A; 16 &#x4F4D;&#x3002;</li>
+</ul>
+<h3 id="26-8086cpu-&#x7ED9;&#x51FA;&#x7269;&#x7406;&#x5730;&#x5740;&#x7684;&#x65B9;&#x6CD5;">2.6 8086CPU &#x7ED9;&#x51FA;&#x7269;&#x7406;&#x5730;&#x5740;&#x7684;&#x65B9;&#x6CD5;</h3>
+<p>8086 &#x6709; 20 &#x4F4D;&#x5730;&#x5740;&#x603B;&#x7EBF;&#xFF0C;&#x53EF;&#x4EE5;&#x4F20;&#x9001; 20 &#x4F4D;&#x5730;&#x5740;&#xFF0C;&#x5BFB;&#x5740;&#x80FD;&#x529B; 1MB.&#x800C; 16 &#x4F4D;&#x7ED3;&#x6784;&#xFF0C;&#x8868;&#x73B0;&#x51FA;&#x5BFB;&#x5740;&#x80FD;&#x529B;&#x53EA;&#x6709; 64KB&#x3002;8086 &#x5728;&#x5185;&#x90E8;&#x7528;&#x4E24;&#x4E2A; 16 &#x4F4D;&#x5730;&#x5740;&#x5408;&#x6210;&#x7684;&#x65B9;&#x6CD5;&#x6765;&#x5F62;&#x6210;&#x4E00;&#x4E2A; 20 &#x4F4D;&#x7684;&#x7269;&#x7406;&#x5730;&#x5740;&#x3002;</p>
+<p>8086CPU &#x76F8;&#x5173;&#x90E8;&#x4EF6;&#x7684;&#x903B;&#x8F91;&#x7ED3;&#x6784;&#xFF1A;</p>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551662328399.png" alt=""></p>
+<p>&#x5730;&#x5740;&#x52A0;&#x6CD5;&#x5668;&#x91C7;&#x7528;<strong>&#x7269;&#x7406;&#x5730;&#x5740;=&#x6BB5;&#x5730;&#x5740;x16+&#x504F;&#x79FB;&#x5730;&#x5740;</strong>&#x7684;&#x65B9;&#x6CD5;&#x5408;&#x6210;&#x7269;&#x7406;&#x5730;&#x5740;&#x3002;&#x4F8B;&#x5982;&#xFF1A;</p>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551662400225.png" alt=""></p>
+<p>&#x201C;&#x6BB5;&#x5730;&#x5740;x16&#x201C; &#x53C8;&#x79F0;&#x4E3A;&#x5DE6;&#x79FB;&#x56DB;&#x4F4D;&#xFF08;&#x4E8C;&#x8FDB;&#x5236;&#x4F4D;&#xFF09;&#xFF0C;&#x5DE6;&#x79FB; N &#x4F4D;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E;&#x4E58;&#x4EE5; 2^N^&#x3002;</p>
+<p>&#x540C;&#x7406;&#xFF0C;X &#x8FDB;&#x5236;&#x7684;&#x6570;&#x636E;&#x5DE6;&#x79FB; N &#x4F4D;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E;&#x4E58;&#x4EE5; X^N^&#x3002;</p>
+<h3 id="27-&#x6BB5;&#x5730;&#x5740;x16&#x504F;&#x79FB;&#x5730;&#x5740;&#x7269;&#x7406;&#x5730;&#x5740;-&#x7684;&#x672C;&#x8D28;&#x542B;&#x4E49;">2.7 &#x201D;&#x6BB5;&#x5730;&#x5740;x16+&#x504F;&#x79FB;&#x5730;&#x5740;=&#x7269;&#x7406;&#x5730;&#x5740;&#x201C; &#x7684;&#x672C;&#x8D28;&#x542B;&#x4E49;</h3>
+<p>&#x5728; CPU &#x8BBF;&#x95EE;&#x5185;&#x5B58;&#x65F6;&#xFF0C;&#x7528;&#x4E00;&#x4E2A;&#x57FA;&#x7840;&#x5730;&#x5740;&#x201D;&#x6BB5;&#x5730;&#x5740;x16&#x201C;&#x548C;&#x4E00;&#x4E2A;&#x76F8;&#x5BF9;&#x4E8E;&#x57FA;&#x7840;&#x5730;&#x8D28;&#x7684;&#x504F;&#x79FB;&#x5730;&#x5740;&#x76F8;&#x52A0;&#xFF0C;&#x7ED9;&#x51FA;&#x5185;&#x5B58;&#x5355;&#x5143;&#x7684;&#x7269;&#x7406;&#x5730;&#x5740;&#x3002;</p>
+<h3 id="28-&#x6BB5;&#x7684;&#x6982;&#x5FF5;">2.8 &#x6BB5;&#x7684;&#x6982;&#x5FF5;</h3>
+<p>&#x6BB5;&#x5730;&#x5740;&#x5E76;&#x4E0D;&#x662F;&#x5185;&#x5B58;&#x88AB;&#x5206;&#x4E3A;&#x4E00;&#x6BB5;&#x4E00;&#x6BB5;&#xFF0C;&#x6BCF;&#x6BB5;&#x6709;&#x4E2A;&#x5730;&#x5740;&#x3002;&#x6BB5;&#x7684;&#x5212;&#x5206;&#x6765;&#x81EA;&#x4E8E; CPU&#xFF0C;&#x6211;&#x4EEC;&#x7528;&#x5206;&#x6BB5;&#x7684;&#x65B9;&#x5F0F;&#x6765;&#x7BA1;&#x7406;&#x5185;&#x5B58;&#x3002;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x8BA4;&#x4E3A;&#xFF1A;&#x5730;&#x5740; 10000H-100FFH &#x7684;&#x5185;&#x5B58;&#x5355;&#x5143;&#x7EC4;&#x6210;&#x4E00;&#x4E2A;&#x6BB5;&#xFF0C;&#x8BE5;&#x6BB5;&#x57FA;&#x7840;&#x5730;&#x5740;&#xFF08;&#x8D77;&#x59CB;&#x5730;&#x5740;&#xFF09;&#x4E3A; 10000H&#xFF0C;&#x6BB5;&#x5730;&#x5740;&#x4E3A; 1000H&#xFF0C;&#x5927;&#x5C0F;&#x4E3A; 100H&#xFF1B;&#x4E5F;&#x53EF;&#x4EE5;&#x8BA4;&#x4E3A;&#x5730;&#x5740; 10000H-10007FH&#x3001;10080H-100FFH &#x7684;&#x5185;&#x5B58;&#x5355;&#x5143;&#x7EC4;&#x6210;&#x4E24;&#x4E2A;&#x6BB5;&#xFF0C;&#x57FA;&#x7840;&#x5730;&#x5740;&#x4E3A;&#xFF1A;10000H &#x548C; 10080H&#xFF0C;&#x6BB5;&#x5730;&#x5740;&#x4E3A;&#xFF1A;1000H &#x548C;1008H&#xFF0C;&#x5927;&#x5C0F;&#x90FD;&#x4E3A; 80H&#x3002;</p>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551663068768.png" alt=""></p>
+<p>&#x53EF;&#x6839;&#x636E;&#x7F16;&#x7A0B;&#x9700;&#x8981;&#xFF0C;&#x5C06;&#x82E5;&#x5E72;&#x5730;&#x5740;&#x8FDE;&#x7EED;&#x7684;&#x5185;&#x5B58;&#x5355;&#x5143;&#x770B;&#x4F5C;&#x4E00;&#x4E2A;&#x6BB5;&#xFF0C;&#x6BB5;&#x5730;&#x5740;x16 &#x5B9A;&#x4F4D;&#x6BB5;&#x7684;&#x8D77;&#x59CB;&#x5730;&#x5740;&#xFF0C;&#x504F;&#x79FB;&#x5730;&#x5740;&#x5B9A;&#x4F4D;&#x6BB5;&#x7684;&#x5185;&#x5B58;&#x5355;&#x5143;&#x3002;&#x6CE8;&#x610F;&#xFF1A;&#x6BB5;&#x7684;&#x8D77;&#x59CB;&#x5730;&#x5740;&#x4E00;&#x5B9A;&#x662F; 16 &#x7684;&#x500D;&#x6570;&#xFF1B;&#x6BB5;&#x7684;&#x6700;&#x5927;&#x957F;&#x5EA6;&#x4E3A; 64KB&#xFF08;&#x7531;&#x504F;&#x79FB;&#x5730;&#x5740;&#x7684; 16 &#x4F4D;&#x957F;&#x5EA6;&#x51B3;&#x5B9A;&#xFF09;&#x3002;</p>
+<ol>
+<li><p>CPU &#x53EF;&#x7528;&#x4E0D;&#x540C;&#x7684;&#x6BB5;&#x5730;&#x5740;&#x548C;&#x504F;&#x79FB;&#x5730;&#x5740;&#x5F62;&#x6210;&#x540C;&#x4E00;&#x4E2A;&#x7269;&#x7406;&#x5730;&#x5740;&#x3002;</p>
+</li>
+<li><p>&#x7ED9;&#x5B9A;&#x6BB5;&#x5730;&#x5740;&#xFF0C;&#x4EC5;&#x901A;&#x8FC7;&#x504F;&#x79FB;&#x5730;&#x5740;&#x6765;&#x5BFB;&#x5740;&#xFF0C;&#x6700;&#x591A;&#x53EF;&#x5B9A;&#x4F4D; 64KB &#x4E2A;&#x5185;&#x5B58;&#x5355;&#x5143;&#x3002;&#x56E0;&#x4E3A;&#x504F;&#x79FB;&#x5730;&#x5740; 16 &#x4F4D;&#xFF0C;&#x53D8;&#x5316;&#x8303;&#x56F4;&#x4E3A; 0-FFFFH&#x3002;</p>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551663398716.png" alt=""></p>
+</li>
+</ol>
+<p>&#xFF08;1&#xFF09;00010H&#xFF0C;1111FH&#xFF1B;</p>
+<p>&#xFF08;2&#xFF09;1001H&#xFF0C;2000H&#x3002;1001H &#x662F;&#x5411;&#x4E0A;&#x53D6;&#x6574;&#xFF0C;&#x800C;&#x975E;&#x56DB;&#x820D;&#x4E94;&#x5165;&#x3002;</p>
+<h3 id="29-&#x6BB5;&#x5BC4;&#x5B58;&#x5668;">2.9 &#x6BB5;&#x5BC4;&#x5B58;&#x5668;</h3>
+<p>&#x6BB5;&#x5730;&#x5740;&#x5728; 8086CPU &#x6BB5;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#x5B58;&#x653E;&#x3002;8086CPU &#x6709; 4 &#x4E2A;&#x6BB5;&#x5BC4;&#x5B58;&#x5668;&#xFF1A;CS&#x3001;DS&#x3001;SS&#x3001;ES&#x3002;&#x5F53; 8086 CPU &#x8981;&#x8BBF;&#x95EE;&#x5185;&#x5B58;&#x65F6;&#x7531;&#x8FD9;&#x4E2A;&#x6BB5;&#x5BC4;&#x5B58;&#x5668;&#x63D0;&#x4F9B;&#x5185;&#x5B58;&#x5355;&#x5143;&#x7684;&#x6BB5;&#x5730;&#x5740;&#x3002;</p>
+<h3 id="210-cs-&#x548C;-ip">2.10 CS &#x548C; IP</h3>
+<p>CS &#x548C; IP &#x662F; 8086CPU &#x4E2D;&#x4E24;&#x4E2A;&#x6700;&#x5173;&#x952E;&#x7684;&#x5BC4;&#x5B58;&#x5668;&#x3002;&#x5B83;&#x4EEC;&#x6307;&#x793A;&#x4E86; CPU &#x5F53;&#x524D;&#x8981;&#x8BFB;&#x53D6;&#x6307;&#x4EE4;&#x7684;&#x5730;&#x5740;&#x3002;CS &#x4E3A;&#x4EE3;&#x7801;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;IP &#x4E3A;&#x6307;&#x4EE4;&#x6307;&#x9488;&#x5BC4;&#x5B58;&#x5668;&#x3002;</p>
+<p>&#x5728; 8086CPU &#x673A;&#x4E2D;&#xFF0C;&#x4EFB;&#x610F;&#x65F6;&#x523B;&#xFF0C;&#x8BBE; CS &#x4E2D;&#x7684;&#x5185;&#x5BB9;&#x4E3A; M&#xFF0C;IP &#x4E2D;&#x7684;&#x5185;&#x5BB9;&#x4E3A; N&#xFF0C;8086CPU &#x5C06;&#x4ECE;&#x5185;&#x5B58; Mx16+N &#x5355;&#x5143;&#x5F00;&#x59CB;&#xFF0C;&#x8BFB;&#x53D6;&#x4E00;&#x6761;&#x6307;&#x4EE4;&#x5E76;&#x6267;&#x884C;&#x3002;&#x5373;&#x4EFB;&#x610F;&#x65F6;&#x523B;&#xFF0C;CPU &#x5C06;CS:IP &#x6307;&#x5411;&#x7684;&#x5185;&#x5BB9;&#x5F53;&#x4F5C;&#x6307;&#x4EE4;&#x6267;&#x884C;&#x3002;</p>
+<p>&#x4E0B;&#x56FE;&#x5C55;&#x793A;&#x4E86; 8086CPU &#x8BFB;&#x53D6;&#x3001;&#x6267;&#x884C;&#x547D;&#x4EE4;&#x7684;&#x5DE5;&#x4F5C;&#x539F;&#x7406;&#xFF1A;&#xFF08;&#x56FE;&#x4E2D;&#x6570;&#x5B57;&#x90FD;&#x4E3A; 16 &#x8FDB;&#x5236;&#xFF09;</p>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551673014389.png" alt=""></p>
+<p>&#x4E0B;&#x9762;&#x4EE5;&#x56FE; 2.10 &#x4E3A;&#x521D;&#x59CB;&#x72B6;&#x6001;&#xFF0C;&#x5C55;&#x793A; 8086CPU &#x8BFB;&#x53D6;&#x3001;&#x6267;&#x884C;&#x4E00;&#x6761;&#x6307;&#x4EE4;&#x7684;&#x8FC7;&#x7A0B;&#x3002;</p>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551673482480.png" alt=""></p>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551673494395.png" alt=""></p>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551673542878.png" alt=""></p>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551673597284.png" alt=""></p>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551673670558.png" alt=""></p>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551673692407.png" alt=""></p>
+<p>&#x5219;&#x53EF;&#x4EE5;&#x628A; 8086CPU &#x7684;&#x5DE5;&#x4F5C;&#x8FC7;&#x7A0B;&#x7B80;&#x8981;&#x63CF;&#x8FF0;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>&#xFF08;1&#xFF09;&#x4ECE; CS:IP &#x6307;&#x5411;&#x7684;&#x5185;&#x5B58;&#x5355;&#x5143;&#x8BFB;&#x53D6;&#x6307;&#x4EE4;&#xFF0C;&#x6307;&#x4EE4;&#x8FDB;&#x5165;&#x6307;&#x4EE4;&#x7F13;&#x51B2;&#x5668;&#xFF1B;</p>
+<p>&#xFF08;2&#xFF09;IP = IP+&#x6240;&#x8BFB;&#x6307;&#x4EE4;&#x7684;&#x957F;&#x5EA6;&#xFF0C;&#x4ECE;&#x800C;&#x53EA;&#x60F3;&#x4E0B;&#x4E00;&#x6761;&#x6307;&#x4EE4;&#xFF1B;</p>
+<p>&#xFF08;3&#xFF09;&#x6267;&#x884C;&#x547D;&#x4EE4;&#xFF0C;&#x8F6C;&#x5230;&#x6B65;&#x9AA4;&#xFF08;1&#xFF09;&#xFF0C;&#x91CD;&#x590D;&#x8FD9;&#x4E2A;&#x8FC7;&#x7A0B;&#x3002;</p>
+<p>&#x5728; 8086CPU &#x52A0;&#x7535;&#x542F;&#x52A8;&#x6216;&#x590D;&#x4F4D;&#x540E;&#xFF0C;CS &#x548C; IP &#x88AB;&#x8BBE;&#x7F6E;&#x4E3A; CS=FFFFH&#xFF0C;IP=0000H&#xFF0C;&#x5373;&#x5728; 8086PC &#x673A;&#x521A;&#x542F;&#x52A8;&#x65F6;&#xFF0C;CPU &#x4ECE;&#x5185;&#x5B58; FFFF0H &#x5355;&#x5143;&#x4E2D;&#x8BFB;&#x53D6;&#x6307;&#x4EE4;&#x6267;&#x884C;&#xFF0C;&#x8FD9;&#x4E5F;&#x662F; 8086PC &#x673A;&#x5F00;&#x673A;&#x7684;&#x7B2C;&#x4E00;&#x6761;&#x6307;&#x4EE4;&#x3002;</p>
+<p>&#x5728;&#x5185;&#x5B58;&#x4E2D;&#xFF0C;&#x6307;&#x4EE4;&#x548C;&#x6570;&#x636E;&#x6CA1;&#x6709;&#x533A;&#x522B;&#xFF0C;&#x90FD;&#x662F;&#x4E8C;&#x8FDB;&#x5236;&#x4FE1;&#x606F;&#x3002;CPU &#x5C06; CS:IP &#x6307;&#x5411;&#x7684;&#x5185;&#x5B58;&#x5355;&#x5143;&#x4E2D;&#x7684;&#x5185;&#x5BB9;&#x770B;&#x4F5C;&#x6307;&#x4EE4;&#x3002;&#x5185;&#x5B58;&#x4E2D;&#x7684;&#x4E00;&#x6BB5;&#x4FE1;&#x606F;&#x66FE;&#x88AB; CPU &#x6267;&#x884C;&#x8FC7;&#x7684;&#x8BDD;&#xFF0C;&#x90A3;&#x4E48;&#x5176;&#x6240;&#x5728;&#x5185;&#x5B58;&#x5355;&#x5143;&#x5FC5;&#x7136;&#x88AB; CS:IP &#x6307;&#x5411;&#x8FC7;&#x3002;</p>
+<h3 id="211-&#x4FEE;&#x6539;-cs&#x3001;ip-&#x7684;&#x6307;&#x4EE4;">2.11 &#x4FEE;&#x6539; CS&#x3001;IP &#x7684;&#x6307;&#x4EE4;</h3>
+<p>&#x5728; CPU &#x4E2D;&#xFF0C;&#x80FD;&#x591F;&#x7528;&#x6307;&#x4EE4;&#x8BFB;&#x5199;&#x7684;&#x90E8;&#x4EF6;&#x53EA;&#x6709;&#x5BC4;&#x5B58;&#x5668;&#x3002;&#x800C; CPU &#x6267;&#x884C;&#x4EC0;&#x4E48;&#x6307;&#x4EE4;&#x662F;&#x7531; CS&#x3001;IP &#x7684;&#x5185;&#x5BB9;&#x51B3;&#x5B9A;&#x7684;&#xFF0C;&#x6240;&#x4EE5;&#x7A0B;&#x5E8F;&#x5458;&#x901A;&#x8FC7;&#x6539;&#x53D8; CS&#x3001;IP &#x7684;&#x5185;&#x5BB9;&#x6765;&#x63A7;&#x5236; CPU&#x3002;</p>
+<p>mov &#x6307;&#x4EE4;&#xFF0C;&#x79F0;&#x4E3A;&#x4F20;&#x9001;&#x6307;&#x4EE4;&#xFF0C;&#x4E0D;&#x80FD;&#x8BBE;&#x7F6E; CS&#x3001;IP &#x7684;&#x503C;&#x3002;</p>
+<p>jmp &#x6307;&#x4EE4;&#xFF0C;&#x79F0;&#x4E3A;&#x8F6C;&#x79FB;&#x6307;&#x4EE4;&#xFF08;&#x80FD;&#x6539;&#x53D8; CS&#x3001;IP &#x6307;&#x4EE4;&#x7684;&#x7EDF;&#x79F0;&#xFF09;&#x3002;</p>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551674622172.png" alt=""></p>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551674634023.png" alt=""></p>
+<h3 id="212-&#x4EE3;&#x7801;&#x6BB5;">2.12 &#x4EE3;&#x7801;&#x6BB5;</h3>
+<p>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5C06;&#x957F;&#x5EA6;&#x4E3A; N&#xFF08;N&#x2264;64KB&#xFF09;&#x7684;&#x4E00;&#x7EC4;&#x4EE3;&#x7801;&#xFF0C;&#x5B58;&#x5728;&#x4E00;&#x7EC4;&#x5730;&#x5740;&#x8FDE;&#x7EED;&#x3001;&#x8D77;&#x59CB;&#x5730;&#x5740;&#x4E3A; 16 &#x7684;&#x500D;&#x6570;&#x7684;&#x5185;&#x5B58;&#x5355;&#x5143;&#x4E2D;&#xFF0C;&#x5373;&#x5B9A;&#x4E49;&#x4E86;&#x4E00;&#x4E2A;&#x4EE3;&#x7801;&#x6BB5;&#x3002;</p>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551675340914.png" alt=""></p>
+<p><img src="https://bucket-1258741719.cos.ap-beijing.myqcloud.com/&#x6C47;&#x7F16;&#x8BED;&#x8A00;-&#x7B2C;&#x4E8C;&#x7AE0;-&#x5BC4;&#x5B58;&#x5668;/1551675362082.png" alt=""></p>
+<p>4 &#x6B21;&#xFF0C;&#x4E09;&#x6B21;&#x8BFB;&#x53D6;&#x547D;&#x4EE4;&#x540E;&#xFF0C;&#x6307;&#x4EE4;&#x6307;&#x5411;&#x4E0B;&#x4E00;&#x6761;&#xFF0C;&#x8FD8;&#x6709;&#x6700;&#x540E;&#x4E00;&#x6761;&#x6267;&#x884C;&#x540E;&#xFF1B;ax&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="公务员招聘要求-YuanCome.html" class="navigation navigation-prev " aria-label="Previous page: 公务员招聘要求-YuanCome.md">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="深入理解java虚拟机-lingyunG.html" class="navigation navigation-next " aria-label="Next page: 深入理解java虚拟机-lingyunG.md">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"汇编语言-第二章-寄存器-乌守元.md","level":"5.1.6.4","depth":3,"next":{"title":"深入理解java虚拟机-lingyunG.md","level":"5.1.6.5","depth":3,"path":"Share/201903W2/深入理解java虚拟机-lingyunG.md","ref":"./Share/201903W2/深入理解java虚拟机-lingyunG.md","articles":[]},"previous":{"title":"公务员招聘要求-YuanCome.md","level":"5.1.6.3","depth":3,"path":"Share/201903W2/公务员招聘要求-YuanCome.md","ref":"./Share/201903W2/公务员招聘要求-YuanCome.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters-small","search","splitter","disqus"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"https-www-wzmmmmj-com-arts"},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"expandable-chapters-small":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Share/201903W2/汇编语言-第二章-寄存器-乌守元.md","mtime":"2019-04-07T06:21:37.308Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-04-19T02:25:10.633Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
